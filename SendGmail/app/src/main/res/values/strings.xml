@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SendGmail</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_subject">Enter subject</string>
+    <string name="enter_your_mail">Enter your mail</string>
+    <string name="send_email">Send Email</string>
+</resources>

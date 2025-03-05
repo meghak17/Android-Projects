@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Math Game</string>
+    <string name="addition">ADDITION</string>
+    <string name="button">Button</string>
+    <string name="button1">Button</string>
+    <string name="subtraction">SUBTRACTION</string>
+    <string name="multiplication">MULTIPLICATION</string>
+    <string name="score">Score :</string>
+    <string name="_0">0</string>
+    <string name="life">Life :</string>
+    <string name="_3">3</string>
+    <string name="time">Time :</string>
+    <string name="_60">60</string>
+    <string name="textview">TextView</string>
+    <string name="write_your_answer_here">Write your answer here</string>
+    <string name="ok">OK</string>
+    <string name="next">NEXT</string>
+    <string name="score1">Score :</string>
+    <string name="_00">0</string>
+    <string name="life1">Life :</string>
+    <string name="_03">3</string>
+    <string name="time1">Time :</string>
+    <string name="_060">60</string>
+    <string name="textview1">TextView</string>
+    <string name="write_your_answer_heree">Write your answer here</string>
+    <string name="OK">Button</string>
+    <string name="NEXT">Button</string>
+    <string name="play_again">Play Again</string>
+    <string name="exit">Exit</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="your_score_0">Your Score : 0</string>
+</resources>

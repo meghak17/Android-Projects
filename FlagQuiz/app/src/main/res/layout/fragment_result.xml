@@ -1,0 +1,61 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.megha.flagquiz.view.FragmentResult">
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/your_result"
+        android:textColor="#455A64"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResult"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/buttonNewQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/button_again"
+        android:textColor="#455A64"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints,VisualLintButtonSize"
+        tools:layout_editor_absoluteX="-63dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/button_exit"
+        android:textColor="#455A64"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints,VisualLintButtonSize"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

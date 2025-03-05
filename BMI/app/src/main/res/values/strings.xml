@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="bmi_calculator">BMI CALCULATOR</string>
+    <string name="calculate">Calculate</string>
+    <string name="write_your_height_cm">Write your height(cm)</string>
+    <string name="write_your_weight_kg">Write your weight(kg)</string>
+    <string name="if_the_bmi_is_above_25_then_it_is_overweight">If the BMI is above 25 then it is overweight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bmi_fragment">BMI Fragment</string>
+</resources>

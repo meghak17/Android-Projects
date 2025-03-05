@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Periodic Notifications</string>
+    <string name="_0">0</string>
+    <string name="set_notification_time">Set Notification Time</string>
+</resources>
